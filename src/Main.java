@@ -1,19 +1,25 @@
 public class Main {
     public static void main(String[] args) {
 
-        byte bbb = 12;
-        short sss = 10325;
-        int iii = 123456789;
-        long lll = 123456789;
-        float fff = 0.123f;
-        double ddd = 123456.1234567890123456789;
+        // Задача 7
 
-        System.out.println("Значение переменной  bbb  с типом  byte  равно " + bbb);
-        System.out.println("Значение переменной  sss  с типом short равно " + sss);
-        System.out.println("Значение переменной  iii  с типом int  равно " + iii);
-        System.out.println("Значение переменной  lll  с типом long равно " + lll);
-        System.out.println("Значение переменной fff с типом float равно " + fff);
-        System.out.println("Значение переменной  ddd  с типом double равно " + ddd);
+
+        int weightAll = 7;
+        int weight1 = 250;
+        int weight2 = 500;
+
+        weightAll = weightAll * 1000;
+
+        float time1 = (float)weightAll / weight1;
+        float time2 = (float)weightAll / weight2;
+
+        float timeAver = (time1 + time2) / 2;
+
+        System.out.println( time1 + " дней уйдет на коррекцию веса, " +
+                "если спортсмен будет терять в весе от 250 граммов в день. ");
+        System.out.println( time2 + " дней уйдет на коррекцию веса, " +
+                "если спортсмен будет терять в весе 500 граммов в день. ");
+        System.out.println( timeAver + " дней уйдет на коррекцию веса в среднем ");
 
 
     }
