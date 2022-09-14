@@ -1,19 +1,32 @@
 public class Main {
     public static void main(String[] args) {
 
-        byte bbb = 12;
-        short sss = 10325;
-        int iii = 123456789;
-        long lll = 123456789;
-        float fff = 0.123f;
-        double ddd = 123456.1234567890123456789;
+        // Задача 6
 
-        System.out.println("Значение переменной  bbb  с типом  byte  равно " + bbb);
-        System.out.println("Значение переменной  sss  с типом short равно " + sss);
-        System.out.println("Значение переменной  iii  с типом int  равно " + iii);
-        System.out.println("Значение переменной  lll  с типом long равно " + lll);
-        System.out.println("Значение переменной fff с типом float равно " + fff);
-        System.out.println("Значение переменной  ddd  с типом double равно " + ddd);
+        // Вес одной единицы продукта
+        short bananOne = 80;
+        short milkOne100 = 105;
+        short IcecrOne = 100;
+        short eggOne = 70;
+
+        // количество каждого продукта
+        short bananAmount = 5;
+        short milkAmount = 2;
+        short IcecrAmount = 2;
+        short eggAmount = 4;
+
+        // общее количество каждого продукта
+        int bananAll = bananOne * bananAmount;
+        int milkAll =  milkOne100 * milkAmount;
+        int IcecrAll = IcecrOne  * IcecrAmount;
+        int eggAll = eggOne * eggAmount;
+
+
+        int koktailAll = bananAll + milkAll + IcecrAll + eggAll;
+
+        float koktailKg = (float)koktailAll / 1000;
+
+        System.out.println("Общий вес спортивного коктейля в килограммах " + koktailKg);
 
 
     }
