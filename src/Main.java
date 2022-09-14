@@ -1,20 +1,27 @@
 public class Main {
     public static void main(String[] args) {
 
-        byte bbb = 12;
-        short sss = 10325;
-        int iii = 123456789;
-        long lll = 123456789;
-        float fff = 0.123f;
-        double ddd = 123456.1234567890123456789;
+        //Задача 4
 
-        System.out.println("Значение переменной  bbb  с типом  byte  равно " + bbb);
-        System.out.println("Значение переменной  sss  с типом short равно " + sss);
-        System.out.println("Значение переменной  iii  с типом int  равно " + iii);
-        System.out.println("Значение переменной  lll  с типом long равно " + lll);
-        System.out.println("Значение переменной fff с типом float равно " + fff);
-        System.out.println("Значение переменной  ddd  с типом double равно " + ddd);
+        byte bottlesOneMinut = 8;
 
+        // Временные интервалы в минутах
+        int t1 = 20;
+        int t2 = 60 * 24;
+        int t3 = 60 * 24 * 3;
+        int t4 = 60 * 24 * 30;
+
+        // Производительность
+        int pr1 = bottlesOneMinut * t1;
+        int pr2 = bottlesOneMinut * t2;
+        int pr3 = bottlesOneMinut * t3;
+        int pr4 = bottlesOneMinut * t4;
+
+        System.out.println("За 20 минут машина произвела бутылок " + pr1 + " штук");
+        System.out.println("За сутки машина произвела бутылок " + pr2 + " штук");
+        System.out.println("За 3 дня машина произвела бутылок " + pr3 + " штук");
+        System.out.println("За 1 месяц машина произвела бутылок " + pr4 + " штук");
 
     }
+
 }
