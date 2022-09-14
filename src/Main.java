@@ -1,20 +1,28 @@
 public class Main {
     public static void main(String[] args) {
 
-        byte bbb = 12;
-        short sss = 10325;
-        int iii = 123456789;
-        long lll = 123456789;
-        float fff = 0.123f;
-        double ddd = 123456.1234567890123456789;
+        // Задача 2
 
-        System.out.println("Значение переменной  bbb  с типом  byte  равно " + bbb);
-        System.out.println("Значение переменной  sss  с типом short равно " + sss);
-        System.out.println("Значение переменной  iii  с типом int  равно " + iii);
-        System.out.println("Значение переменной  lll  с типом long равно " + lll);
-        System.out.println("Значение переменной fff с типом float равно " + fff);
-        System.out.println("Значение переменной  ddd  с типом double равно " + ddd);
+        float fff = 27.12f;
+        long lll = 987678965549L;
+        byte bbb = 2;
+        short kkk = 786;
+        boolean nnn = 1000 < kkk;
+        short sss = 569;
+        short ttt = -159;
+        short hhh = 27897;
+        byte vvv = 67;
 
+
+        System.out.println(fff);
+        System.out.println(lll);
+        System.out.println(bbb);
+        System.out.println(kkk);
+        System.out.println(nnn);
+        System.out.println(sss);
+        System.out.println(ttt);
+        System.out.println(hhh);
+        System.out.println(vvv);
 
     }
 }
